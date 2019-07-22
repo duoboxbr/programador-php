@@ -1,61 +1,51 @@
-# Teste prático - Programador(a) PHP Pleno – Laravel
+<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
-[![N|duobox](https://download.duobox.com.br/imgs/logo_duobox_azul.png)](https://duobox.com.br/)
+<p align="center">
+<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
+</p>
 
-**Desenvolver uma aplicação simples utilizando [Laravel 5](https://laravel.com/).**
-O objetivo desta avaliação é medir o nível de conhecimento do candidato nas áreas em que a vaga será exigida.
+## About Laravel
 
-# Escopo
-Deve-se criar uma aplicação em PHP para resolver o problema descrito abaixo, utilizando framework Laravel 5. Fique a vontade para explorar todo o seu conhecimento em automação de tarefas, CSS e Javascript com JQuery, Vue.JS, Angular ou qualquer outra ferramenta.
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
 
-# Cenário fictício
-Prof. Jubilut está lançando uma nova plataforma de ensino online. Nesta plataforma, desejamos realizar a matrícula de alunos em cursos através de um painel administrativo. 
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-# Requisitos
-- Um aluno pode ser matriculado em mais de um curso
-- O administrador do sistema que realizará as matrículas. Não é necessário desenvolver tela para alunos.
-- A consulta pelo nome e pelo e-mail é requisito funcional
-- Não é necessário desenvover tela de login / autenticação. 
+Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
 
-#### CRUD de Áreas de Cursos
-Criar um gerenciamento aonde seja possível Criar, Listar, Editar e Visualizar uma área de curso (Biologia, Química, Física, por exemplo). 
+## Learning Laravel
 
-##### Atributos de um Curso são:
-- título (obrigatório)
-- descrição 
+Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is thorough, complete, and makes it a breeze to get started learning the framework.
 
-#### CRUD de Alunos
-Criar um gerenciamento aonde seja possível Criar, Listar, Editar e Visualizar um Aluno. 
+If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
 
-##### Atributos de um Aluno são:
-- nome (obrigatório)
-- email (obrigatório)
-- data de nascimento
+## Laravel Sponsors
 
-#### CRUD de Matrículas
-Criar um gerenciamento aonde seja possível Criar, Listar, Editar e Visualizar uma matrícula. 
+We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](http://patreon.com/taylorotwell):
 
-# Instruções:
+- **[Vehikl](http://vehikl.com)**
+- **[Tighten Co.](https://tighten.co)**
+- **[British Software Development](https://www.britishsoftware.co)**
+- **[Styde](https://styde.net)**
+- [Fragrantica](https://www.fragrantica.com)
+- [SOFTonSOFA](https://softonsofa.com/)
 
-- Faça fork desse repositório envie-nos um Pull Request quando estiver pronto.
-- Deve ser utilizado o Laravel como framework PHP
-- Deve ser utilizado o Composer para gerenciar as dependências da aplicação. 
-- Crie um README com orientações para a instalação.
+## Contributing
 
-# Plus ++ 
-- Cubra pelo menos 3 recursos de seu código com testes unitários.
-- Utilize as melhores práticas da Orientação a Objetos.
-- As tabelas do banco de dados criadas através de migrations.
-- Pretendemos conectar um aplicativo mobile nesta nova plataforma. 
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
 
+## Security Vulnerabilities
 
-# Observações:
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
 
-- Não tenha pressa! O que será avaliado é a qualidade do código não a velocidade de desenvolvimento. Portanto, qualquer generator / scaffolding de CRUD, MVC, etc, torna-se desnecessário. 
-- Se não for possível terminar todas as funcionalidades, não tem problema.
-- Seu código-fonte não precisa ser bonito ou ter um UX excelente. Você pode optar por templates para o frontend, se assim desejar.
-- Não precisa ser complexo, com varias lib’s e etc. O legal é usar o necessário para ter um código de qualidade e de fácil evolução. 
-- Lembrando código de qualidade, você pode e deve fazer o que achar necessário para isso, mesmo que não esteja listado aqui. 
-- 
+## License
 
-Em caso de dúvidas, envie-nos um e-mail rh () duobox.com.br 
+The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).

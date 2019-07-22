@@ -1,0 +1,12 @@
+Para instalar Laravel no Windows:
+Primeiramento é necessário baixar o XAMMP, caso não tenha instalado no seu computador. Acesse o link abaixo e faça o Download:
+https://www.apachefriends.org/pt_br/download.html
+Depois que foi instalado o Apache é necessario estar baixando o Composer que é o gerenciamento de dependencias do PHP. Para deve baixar o instalador no link e fazer a instalação:
+https://getcomposer.org/download/
+Abra o CMD e digite o camando:
+composer
+Apos digitar o seguinte comando acima, é necessario estar instalando o Laravel. No CMD vá até o diretorio xammp/htdocs e digite o seguinte comando:
+composer create-project --prefer-dist laravel/laravel blog
+Para iniciar o servidor do Laravel é necessario digitar o seguinte comando no CMD:
+php artisan serve
+Para acessar o sistema é so digitar localhost:8000
