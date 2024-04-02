@@ -1,0 +1,2 @@
+CREATE DATABASE prova_duobox
+    DEFAULT CHARACTER SET = 'utf8mb4';
